@@ -1,0 +1,5 @@
+error: at least one soname is required
+ --> tests/ui/err_empty_soname.rs:4:5
+  |
+4 |     soname: [],
+  |     ^^^^^^

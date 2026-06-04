@@ -1,0 +1,5 @@
+error: expected a comma
+ --> tests/ui/err_missing_comma.rs:5:5
+  |
+5 |     feature: "vulkan"
+  |     ^^^^^^^

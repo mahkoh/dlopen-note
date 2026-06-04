@@ -1,0 +1,5 @@
+error: unknown priority
+ --> tests/ui/err_bad_priority.rs:5:15
+  |
+5 |     priority: "high",
+  |               ^^^^^^

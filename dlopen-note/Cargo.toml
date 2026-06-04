@@ -1,0 +1,19 @@
+[package]
+name = "dlopen-note"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/mahkoh/dlopen-note"
+license = "MIT OR Apache-2.0"
+description = "ELF .note.dlopen metadata"
+rust-version = "1.93.0"
+keywords = ["security", "macro", "ffi", "linux"]
+categories = ["no-std", "os", "security"]
+readme = "../README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.106"
+syn = { version = "2.0.117", default-features = false, features = ["parsing", "proc-macro"] }
+quote = "1.0.45"

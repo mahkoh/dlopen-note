@@ -1,0 +1,5 @@
+error: unknown key
+ --> tests/ui/err_unknown_key.rs:5:5
+  |
+5 |     frobnicate: "nope",
+  |     ^^^^^^^^^^

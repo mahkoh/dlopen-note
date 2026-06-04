@@ -1,0 +1,5 @@
+error: strings cannot contain control characters
+ --> tests/ui/err_control_char.rs:5:18
+  |
+5 |     description: "line one\nline two",
+  |                  ^^^^^^^^^^^^^^^^^^^^
